@@ -7,11 +7,13 @@ import { configureStore } from '@reduxjs/toolkit';
 import { Provider } from 'react-redux';
 import JudgeSlice from './store/judgeSlice';
 import ProsecutorsSlice from './store/prosecutorSlice';
+import AnsweringsSlice from './store/answeringSlice';
 
 const myStore=configureStore({
   reducer:{
     JudgeSlice,
-    ProsecutorsSlice
+    ProsecutorsSlice,
+    AnsweringsSlice
 
   }
 })
