@@ -1,13 +1,15 @@
 // import logo from './logo.svg';
 import './App.css';
-import Judges from './components/judges'
-import Answerings from './components/answerings'
+// import Judges from './components/judges'
+// import Answerings from './components/answerings'
+import ParticipantCard from './hooks/ParticipantCard'
 
 function App() {
   return (
     <div className="App">
-      <Judges/>
-      <Answerings/>
+      <ParticipantCard/>
+      {/* <Judges/> */}
+      {/* <Answerings/> */}
     </div>
   );
 }
