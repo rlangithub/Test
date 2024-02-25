@@ -6,10 +6,12 @@ import reportWebVitals from './reportWebVitals';
 import { configureStore } from '@reduxjs/toolkit';
 import { Provider } from 'react-redux';
 import JudgeSlice from './store/judgeSlice';
+import ProsecutorsSlice from './store/prosecutorSlice';
 
 const myStore=configureStore({
   reducer:{
-    JudgeSlice
+    JudgeSlice,
+    ProsecutorsSlice
 
   }
 })
