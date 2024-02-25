@@ -13,9 +13,15 @@ import MicOffIcon from '@mui/icons-material/MicOff';
 const ParticipantCard = () => {
     const [i, setI] = useState(<MicOffIcon />);
     const [speak, setSpeak] = useState(false);
-
+    
     const speech = () => {
-        setSpeak(!speak);
+ 
+        // setSpeak(!speak);
+        if(speak)
+            setSpeak(false);
+        else
+            setSpeak(true);
+        console.log(speak)
         speak ? setI(<MicOffIcon />) : setI(<MicIcon />)
     };
     return (
