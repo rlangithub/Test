@@ -1,8 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 const initValue = {
     prosecutors: [
-        {profile:"תובע", name: "רבקה לנג"},
-        {profile:"עורר", name: "נחמי לנג"}
+        {profile:"תובע", name: "יהודית לנג"}
     ]    
 };
 
