@@ -1,8 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 const initValue = {
     answerings: [
-        {profile:"משיב", name: "רבקה לנג"},
-        {profile:"משיב", name: "נחמי לנג"}
+        {profile:"משיב", name: "רבקה לנג"}
     ]    
 };
 
