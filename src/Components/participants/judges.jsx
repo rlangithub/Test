@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { getProsecutors } from '../store/prosecutorSlice'
-import ParticipantCard from '../hooks/ParticipantCard'
-const Prosecutor = () => {
+import { getJudges } from '../../store/judgeSlice'
+import ParticipantCard from '../ParticipantCard'
+const Judges = () => {
 
     //  const dispatch = useDispatch();
     //  const { res, axiosData } = useGet({ url: 'https://localhost:7259/api/ToDo' });
@@ -14,22 +14,21 @@ const Prosecutor = () => {
     //אמורים לקבל את הנתונים ממקום מסויים.
     //הפעולה גאט מפעילה קריאת שרת ואת המידע נעדכן בסטייט.
 
-    const prosecutors = useSelector(x => x.ProsecutorsSlice.prosecutors);
-    console.log("prosecutors", prosecutors);
+    const judges = useSelector(x => x.JudgeSlice.judges);
 
     return (
         <>
-            <h1>in prosecutors</h1>
             {
-                prosecutors.map((p) => {
+                judges.map((j) => {
                     return (
-                        // <ParticipantCard props={p} />
-                        <div>{p.profile}</div>
+                        <>
+                            <ParticipantCard props={j} />
+                            <div>{j.profile}</div>
+                        </>
                     )
                 })
             }
         </>
-    )
-
+    );
 }
-export default Prosecutor;
+export default Judges;
