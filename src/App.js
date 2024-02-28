@@ -1,12 +1,13 @@
 import './App.css';
-import Prosecutor from './Components/participants/prosecutors'
+
+import DiscussionScreen from './Components/discussionScreen/discussionScreen'
 
 
 
 function App() {
   return (
-    <div className="App">
-      <Prosecutor/>
+    <div className="App height100vh backgroundBlueDiscussin">
+      <DiscussionScreen/>
 
     </div>
   );

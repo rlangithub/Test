@@ -1,0 +1,223 @@
+.grid-template-columns1Auto {
+    grid-template-columns: auto;
+}
+.grid-template-columns2Auto {
+    grid-template-columns: auto auto;
+}
+
+.grid-template-columns3Auto {
+    grid-template-columns: auto auto auto;
+}
+.grid-template-columns5auto{
+    grid-template-columns: auto auto auto;
+}
+
+.displayGrid {
+    display: grid;
+}
+
+.align-itemsCenter {
+    align-items: center;
+}
+
+.justify-contentStart {
+    justify-content: start;
+}
+.justify-contentSpace-between{
+    justify-content: space-between;
+}
+.justify-itemsCenter {
+    justify-items: center;
+}
+.justify-contentEnd{
+    justify-content: end;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-itemstretch{
+    justify-items: stretch;
+}
+.align-content-space-around{
+    align-content: space-around;
+}
+
+.grid-column4-9 {
+    grid-column: 3 / span 9;
+
+}
+.grid-column5-7 {
+    grid-column: 5 / span 2;
+
+}
+.grid-column2-10 {
+    grid-column: 3 / span 8;
+
+}
+.grid-column2-11 {
+    grid-column: 1 /span 11;
+
+}
+.grid-column9-12 {
+    grid-column: 9 / 12;
+}
+
+.grid-column1-2 {
+    grid-column: 1 / span 1;
+}
+
+.grid-column1-3 {
+    grid-column: 1 / span 2;
+}
+.grid-column1-2 {
+    grid-column: 1 / span 1;
+}
+
+.grid-column2-3 {
+    grid-column: 2 / span 1;
+}
+.grid-column7-9 {
+    grid-column: 7 / span 2;
+}
+
+.grid-column3-4 {
+    grid-column: 3 / span 1;
+}
+.grid-column11-12 {
+    grid-column: 11 / span 1;
+}
+.grid-row1{
+    /* grid-row-start: 1 ; */
+    grid-row: 1/ span 1;
+}
+.grid-row1-3 {
+    grid-row: 1 / span 1;
+}
+.grid-row1-12 {
+    grid-row: 1 /12;
+}
+.grid-row3-9 {
+    grid-row: 3 / span 6;
+}
+.grid-row3-5{
+    grid-row: 2 / span 2;
+}
+.grid-row2-8 {
+    grid-row: 2 / span 8;
+}
+.grid-row11-12 {
+    grid-row: 11 / span 1;
+}
+
+.backgroundWhite {
+    background-color: white;
+}
+
+.backgroundBlack {
+    background-color: rgba(12,23,31,255);
+}
+.backgroundBlack {
+    background-color:  rgba(10,19,26,255);
+}
+.backgroundBlueDiscussin {
+    background-color:  rgba(18,34,46,255);
+    
+}
+.backgroundBlueDiscussin1 {
+    background-color:  rgba(19,36,48,255); 
+}
+.background-color-opasity{
+    background-color: rgba(0, 0.400, 0, 0.400);
+}
+
+.backgroundButton {
+    background-color: rgba(27, 52, 69, 255);
+   
+}
+.backgroundRed {
+    background-color: rgba(255, 92, 92, 255);
+}
+
+.border-radius10 {
+    /* border-radius: 10%; */
+    color: white;
+    background-color: rgba(27, 52, 69, 255);
+    border-radius: 30%;
+}
+
+.border-radius40 {
+    border-radius: 40%;
+}
+.border-radius25{
+    border-radius: 25%;
+}
+
+.padding12px {
+    padding: 12px;
+}
+
+.colorWhite {
+    color: white;
+
+}
+
+
+
+.colorRed {
+    color: rgba(214, 93, 96, 255);
+
+}
+.colorblue {
+    color:rgba(36,60,76,255);
+
+}
+
+.padding10px {
+    padding: 10px
+}
+
+.gap10px {
+    gap: 10px;
+}
+.width100{
+    width: 100%;
+}
+.width70{
+    width: 70%;
+}
+.width60{
+    width: 60%;
+}
+.width50{
+    width: 50%;
+}
+.width40{
+    width: 40%;
+}
+.height-fit-content{
+    height: fit-content;
+}
+.height50{
+    height: 50%;
+}
+.height80{
+    height: 80%;
+}
+.height100vh{
+    height: 100vh;
+}
+.img{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+.z-index2{
+    z-index: 2;
+}
+.margin10px{
+    margin: 10px;
+}
+.padding3px{
+    padding: 3px
+}
