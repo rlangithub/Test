@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import answering from '../assets/img/answering.png'
 const initValue = {
     answerings: [
-        { profile: "משיב", name: "רבקה לנג", src: answering }
+        { profile: "משיב", name: " שושנה שושני", src: answering }
     ]
 };
 

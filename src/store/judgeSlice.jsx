@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import judge from '../assets/img/judge.png'
 const initValue = {
     judges: [
-        { profile: "עורך דין", name: "רבקה לנג", type: 1, src: judge }
+        { profile: "שופט", name: "ישראלה ישראלוף", type: 1, src: judge }
     ]
 };
 

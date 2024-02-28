@@ -22,12 +22,9 @@ body>*{
 }
 .colorLightBlue{
     color: #3d9df0;
-    /* font-family: calibri,Rubik;
-    font-weight: bold; */
 }
 .borderRadius10{
     border-radius: 7%;
-   
 }
 .displayGrid{
     display: grid;
@@ -38,7 +35,6 @@ body>*{
 .align-items-center{
     align-items: center;
 }
-
 .gridTemplateColumns2Auto{
     grid-template-columns: auto auto;
 }
@@ -69,14 +65,12 @@ body>*{
 .width400px{
     width: 400px;
 }
-
 .height30{
     height: 30%;
 }
 .gap10px {
     gap: 10px;
 }
-
 img{
     width: 100%;
     background-repeat: no-repeat;
