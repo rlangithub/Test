@@ -6,8 +6,6 @@ import { grey } from '@mui/material/colors';
 const ContenderCard = (props) => {
     return (
         <div className='width300px height150px displayGrid alignItemsEnd colorWhite borderRadius10' >
-            {/* <div className='z-index2 backgroundWhite colorblue grid-column11-12 grid-row1'>צד {props.props.profile}</div> */}
-            {/* style={{backgroundImage: url({props.props.src}) }} */}
             <img src={props.props.src} className='img' />
             <div className='background-color-opasity padding12px justify-contentSpace-between displayGrid gridTemplateColumns2Auto borderRadius10' >
                 <Checkbox sx={{ color: grey[50] }} icon={<MicOffIcon />} checkedIcon={<MicIcon />}></Checkbox >
@@ -17,7 +15,7 @@ const ContenderCard = (props) => {
                 </div>
             </div>
         </div>
-
     )
 }
 export default ContenderCard
+

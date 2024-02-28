@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { getJudges } from '../../store/judgeSlice'
 import JudgeCard from '../card/judgeCard'
+
 const Judges = () => {
 
     //  const dispatch = useDispatch();
@@ -15,13 +16,13 @@ const Judges = () => {
     //הפעולה גאט מפעילה קריאת שרת ואת המידע נעדכן בסטייט.
 
     const judges = useSelector(x => x.JudgeSlice.judges);
-
+    console.log(judges.length);
     return (
         <>
             {
                 judges.map((j) => {
                     return (
-                        <JudgeCard props={j} />
+                        <JudgeCard prop1={j} prop2={judges.length} />
                     )
                 })
             }

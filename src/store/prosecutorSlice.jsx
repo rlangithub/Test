@@ -2,7 +2,8 @@ import { createSlice } from "@reduxjs/toolkit";
 import prosecutor from '../assets/img/prosecutor.png';
 const initValue = {
     prosecutors: [
-        { profile: "עורר", name: "רבקה לנג", src: prosecutor }
+        { profile: "עורר", name: "יעקב יעקובי", src: prosecutor }
+
     ]
 };
 

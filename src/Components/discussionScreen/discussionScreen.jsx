@@ -39,7 +39,7 @@ const DiscussionScreen = () => {
 
                 <div id="main" className='displayGrid grid-row2-8 grid-column4-9 backgroundBlueDiscussin' >
                     <div id="main" className='displayGrid grid-column2-10 grid-row2-8'>
-                        <div id="Judges" className='displayGrid'><Judges /></div>
+                        <div id="Judges" className='displayGrid displayFlex'><Judges /></div>
                         <div className='displayGrid justify-content-center gap10px grid-template-columns2Auto'>
                             <div className='width50'><Answerings /></div>
                             <div className='width50'><Prosecutor /></div>
