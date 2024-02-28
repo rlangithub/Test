@@ -1,0 +1,86 @@
+body>*{
+    font-family: assistant, calibri;
+    font-weight: bold;
+}
+.icon{
+    font-size: 100px;
+}
+.colorWhite{
+    color:white;
+}
+.opacity{
+    opacity: 1;
+}
+.backgroundBlack{
+    background-color: #2f3f4aa9;
+}
+.backgroundPink{
+    background-color: #da137a;
+}
+.backgroundWhite{
+    background-color:white;
+}
+.colorLightBlue{
+    color: #3d9df0;
+    /* font-family: calibri,Rubik;
+    font-weight: bold; */
+}
+.borderRadius10{
+    border-radius: 7%;
+   
+}
+.displayGrid{
+    display: grid;
+}
+.alignItemsEnd{
+    align-items: end;
+}
+.align-items-center{
+    align-items: center;
+}
+
+.gridTemplateColumns2Auto{
+    grid-template-columns: auto auto;
+}
+.width60{
+    width: 60%;
+}
+.width50{
+    width: 50%;
+}
+.width100{
+    width: 100%;
+}
+.width30px{
+    width: 30px;
+}
+.width150px{
+    width: 150px;
+}
+.height150px{
+    height: 150px;
+}
+.height250px{
+    height: 250px;
+}
+.width300px{
+    width: 300px;
+}
+.width400px{
+    width: 400px;
+}
+
+.height30{
+    height: 30%;
+}
+.gap10px {
+    gap: 10px;
+}
+
+img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
