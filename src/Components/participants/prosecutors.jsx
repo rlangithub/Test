@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { getProsecutors } from '../../store/prosecutorSlice'
-import ParticipantCard from '../ParticipantCard'
+import ContenderCard from '../card/ContenderCard'
 const Prosecutor = () => {
 
     //  const dispatch = useDispatch();
@@ -21,10 +21,7 @@ const Prosecutor = () => {
             {
                 prosecutors.map((p) => {
                     return (
-                        <>
-                            <ParticipantCard props={p} />
-                            <div>{p.profile}</div>
-                        </>
+                        <ContenderCard props={p} />
                     )
                 })
             }

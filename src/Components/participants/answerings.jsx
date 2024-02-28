@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { getAnswerings } from '../../store/answeringSlice'
-import ParticipantCard from '../ParticipantCard'
+import ContenderCard from '../card/ContenderCard'
 const Answerings = () => {
 
     //  const dispatch = useDispatch();
@@ -20,10 +20,7 @@ const Answerings = () => {
             {
                 answerings.map((j) => {
                     return (
-                        <>
-                            <ParticipantCard props={j} />
-                            <div>{j.profile}</div>
-                        </>
+                        <ContenderCard props={j} />
                     )
                 })
             }

@@ -8,21 +8,24 @@ import Typography from '@mui/joy/Typography';
 import Checkbox from '@mui/material/Checkbox';
 import MicIcon from '@mui/icons-material/Mic';
 import MicOffIcon from '@mui/icons-material/MicOff';
-import { Label } from '@mui/icons-material';
+// import { Label } from '@mui/icons-material';
 
-
-const ParticipantCard = (props) => {
-    const [speak, setSpeak] = useState(false);
+const ParticipantCard = () => {
     const [i, setI] = useState(<MicOffIcon />);
+    const [speak, setSpeak] = useState(false);
+    
     const speech = () => {
+ 
+        // setSpeak(!speak);
+        if(speak)
+            setSpeak(false);
+        else
+            setSpeak(true);
+        console.log(speak)
         speak ? setI(<MicOffIcon />) : setI(<MicIcon />)
-        setSpeak(!speak);
-        // // setIcon([1-icon]);
-        // // console.log(icon);
-        // console.log("speak", !speak);
-    }
+    };
     return (
-        <Card variant="outlined" sx={{ width: 320 }} >
+        <Card variant="outlined" sx={{ width: 320 }}>
             <CardOverflow>
                 <AspectRatio ratio="2">
                     <img
@@ -33,7 +36,6 @@ const ParticipantCard = (props) => {
                     />
                 </AspectRatio>
             </CardOverflow>
-
             <CardOverflow variant="soft" sx={{ bgcolor: 'background.level1' }}>
                 <CardContent orientation="horizontal">
                     <div>
@@ -46,14 +48,16 @@ const ParticipantCard = (props) => {
                         {/* <Label>עורר</Label> */}
                         {/* </Typography> */}
                         <Typography level="body-xs" fontWeight="md" textColor="text.secondary">
-                            {props.profile} {props.name}
+                            {/* {props.profile} */}
+                            {/* //עורך דין */}
+                            עורך דין
+                            {/* {props.name} */}
+                            רבקי לנג
                         </Typography>
                     </div>
-
                 </CardContent>
             </CardOverflow>
         </Card>
-        // </Grid>
     );
 }
 export default ParticipantCard;

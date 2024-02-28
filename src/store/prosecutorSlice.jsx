@@ -1,19 +1,20 @@
 import { createSlice } from "@reduxjs/toolkit";
+import prosecutor from '../assets/img/prosecutor.png';
 const initValue = {
     prosecutors: [
-        {profile:"תובע", name: "יהודית לנג"}
-    ]    
+        { profile: "עורר", name: "רבקה לנג", src: prosecutor }
+    ]
 };
 
 const ProsecutorsSlice = createSlice({
     name: "prosecutors",
-    initialState:initValue,
-    reducers:{
-        getProsecutors:(state,actions)=>{
+    initialState: initValue,
+    reducers: {
+        getProsecutors: (state, actions) => {
             state.prosecutors = actions.payload.res;
         }
     }
 });
 
-export const {getProsecutors} = ProsecutorsSlice.actions;
+export const { getProsecutors } = ProsecutorsSlice.actions;
 export default ProsecutorsSlice.reducer;
